@@ -1,0 +1,38 @@
+/* Basic styling */
+.portfolio-carousel {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .portfolio-item {
+    text-align: center;
+    padding: 20px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+  }
+  
+  .portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  /* Slick Carousel theme */
+  .slick-prev, .slick-next {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+    color: #555;
+  }
+  
+  .slick-dots li button {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .slick-dots li.slick-active button {
+    color: #333;
+  }
+  
